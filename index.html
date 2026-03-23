@@ -36,13 +36,15 @@
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-K9DSXDLT');</script>
-        </head>
+    </head>
     <body data-spy="scroll" data-target="#booking">
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K9DSXDLT"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark maNav" role="navigation" aria-label="Navigation principale">
             <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" width="100" alt="Logo officiel du Festival Les Films de Plein Air"/>
+                <!-- CORRECTION 1 : logo.png corrigé en logo.jpg -->
+                <img src="images/logo.jpg" width="100" alt="Logo officiel du Festival Les Films de Plein Air"/>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Ouvrir le menu de navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -57,14 +59,16 @@
                 </div>
             </div>
         </nav>
+
         <div class="alert alert-secondary alert-dismissible fade show text-center" role="alert">
             <p>En poursuivant votre navigation sur ce site, vous acceptez l'utilisation de cookies uniquement à des fins statistiques (Google Analytics) pour nous aider à améliorer le festival.</p>
             <button type="button" class="btn btn-success btn-sm" data-dismiss="alert" aria-label="Accepter les cookies">J'accepte</button>
             <button type="button" class="btn btn-danger btn-sm" data-dismiss="alert" aria-label="Refuser les cookies">Je refuse</button>
             <button type="button" class="close" data-dismiss="alert" aria-label="Fermer">
-                <span aria-hidden="true">×</span>
+                <span aria-hidden="true">&times;</span>
             </button>
         </div>
+
         <section class="container-fluid welcome" aria-label="Présentation du festival">
             <div class="container">
                 <div class="row">
@@ -83,6 +87,7 @@
                 </div>
             </div>
         </section>
+
         <section class="container-fluid about" aria-labelledby="about">
             <div class="container">
                 <div class="row">
@@ -96,6 +101,7 @@
                 </div>
             </div>
         </section>
+
         <section class="container-fluid news" aria-labelledby="news">
             <div class="container">
                 <div class="row">
@@ -110,6 +116,7 @@
                 </div>
             </div>
         </section>
+
         <section class="container-fluid movie" aria-labelledby="movie">
             <div class="container">
                 <div class="row">
@@ -135,11 +142,12 @@
                 </div>
                 <div class="row mt-4">
                     <div class="col-12 text-center">
-                         <a href="films.html" class="btn btn-outline-light">Voir toute la sélection (10 films)</a>
+                        <a href="films.html" class="btn btn-outline-light">Voir toute la sélection (10 films)</a>
                     </div>
                 </div>
             </div>
         </section>
+
         <section class="container-fluid booking" aria-labelledby="booking">
             <div class="container">
                 <div class="row">
@@ -186,6 +194,7 @@
                 </div>
             </div>
         </section>
+
         <section class="container-fluid contact" aria-labelledby="contact">
             <div class="container">
                 <div class="row">
@@ -221,6 +230,7 @@
                 </div>
             </div>
         </section>
+
         <footer class="container-fluid footer" role="contentinfo">
             <div class="container py-3">
                 <div class="row">
@@ -239,15 +249,17 @@
                         <div class="contactIcons mb-3">
                             <p><span class="pr-3"><i class="fas fa-home" aria-hidden="true"></i></span>Parc Monceau, 35 Bd de Courcelles, 75008 Paris</p>
                             <p><span class="pr-3"><i class="fas fa-envelope" aria-hidden="true"></i></span>contact@lesfilmsdelepleinair.org</p>
+                            <!-- CORRECTION 2 : numéro de téléphone ajouté -->
+                            <p><span class="pr-3"><i class="fas fa-phone" aria-hidden="true"></i></span>+33 1 XX XX XX XX</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-3 partenaire">
                         <h2>Nos Partenaires</h2>
                         <div class="contactIcons mb-3">
                             <ul class="list-unstyled">
-                                <li class="mb-2"><a href="https://www.paris.fr/" target="_blank" rel="noopener noreferrer" class="text-reset text-decoration-none"><i class="fas fa-landmark me-2"></i> Mairie de Paris</a></li>
-                                <li class="mb-2"><a href="https://www.iledefrance.fr/" target="_blank" rel="noopener noreferrer" class="text-reset text-decoration-none"><i class="fas fa-map me-2"></i> Région Île-de-France</a></li>
-                                <li class="mb-2"><a href="https://www.francetelevisions.fr/groupe" target="_blank" rel="noopener noreferrer" class="text-reset text-decoration-none"><i class="fas fa-tv me-2"></i> France Télévisions</a></li>
+                                <li class="mb-2"><a href="https://www.paris.fr/" target="_blank" rel="noopener noreferrer" class="text-reset text-decoration-none"><i class="fas fa-landmark me-2" aria-hidden="true"></i> Mairie de Paris</a></li>
+                                <li class="mb-2"><a href="https://www.iledefrance.fr/" target="_blank" rel="noopener noreferrer" class="text-reset text-decoration-none"><i class="fas fa-map me-2" aria-hidden="true"></i> Région Île-de-France</a></li>
+                                <li class="mb-2"><a href="https://www.francetelevisions.fr/groupe" target="_blank" rel="noopener noreferrer" class="text-reset text-decoration-none"><i class="fas fa-tv me-2" aria-hidden="true"></i> France Télévisions</a></li>
                             </ul>
                         </div>
                     </div>
@@ -263,12 +275,14 @@
                     </div>
                 </div>
             </div>
+            <!-- CORRECTION 3 : copyright 2026 → 2025 -->
             <div class="socketBkg">
                 <div class="socket text-center">
-                    <p>Copyright © 2026 — Les Films de Plein Air — Projet SEO</p>
+                    <p>Copyright &copy; 2025 — Les Films de Plein Air — Projet SEO</p>
                 </div>
             </div>
         </footer>
+
         <button onclick="topFunction()" id="myBtn" title="Retour en haut de page" aria-label="Retour en haut de page"><i class="fas fa-chevron-up" aria-hidden="true"></i></button>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
