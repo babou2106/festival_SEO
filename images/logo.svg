@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+
+  <!-- Fond circulaire -->
+  <circle cx="100" cy="100" r="97" fill="#1f2c34"/>
+  <circle cx="100" cy="100" r="97" fill="none" stroke="#e96b55" stroke-width="3"/>
+
+  <!-- Étoiles (ciel nocturne) -->
+  <circle cx="28" cy="38" r="2"   fill="#f0f193" opacity="0.9"/>
+  <circle cx="48" cy="22" r="1.5" fill="#f0f193" opacity="0.7"/>
+  <circle cx="72" cy="28" r="2.5" fill="#f0f193"/>
+  <circle cx="95" cy="18" r="1.5" fill="#f0f193" opacity="0.8"/>
+  <circle cx="120" cy="25" r="2"  fill="#f0f193" opacity="0.9"/>
+  <circle cx="148" cy="20" r="1.5" fill="#f0f193" opacity="0.6"/>
+  <circle cx="168" cy="38" r="2"  fill="#f0f193" opacity="0.8"/>
+  <circle cx="175" cy="58" r="1.5" fill="#f0f193" opacity="0.5"/>
+  <circle cx="22"  cy="62" r="1.5" fill="#f0f193" opacity="0.5"/>
+  <circle cx="38"  cy="52" r="1"   fill="#f0f193" opacity="0.6"/>
+  <circle cx="160" cy="52" r="1"   fill="#f0f193" opacity="0.6"/>
+  <circle cx="108" cy="32" r="1"   fill="#f0f193" opacity="0.5"/>
+
+  <!-- Bobine de film : anneau extérieur -->
+  <circle cx="100" cy="90" r="46" fill="none" stroke="#5eab99" stroke-width="2.5" stroke-dasharray="4,3"/>
+  <circle cx="100" cy="90" r="42" fill="#1f2c34" opacity="0.5"/>
+
+  <!-- Bobine : 6 trous -->
+  <circle cx="100" cy="50"  r="9" fill="#5eab99"/>
+  <circle cx="134" cy="70"  r="9" fill="#5eab99"/>
+  <circle cx="134" cy="110" r="9" fill="#5eab99"/>
+  <circle cx="100" cy="130" r="9" fill="#5eab99"/>
+  <circle cx="66"  cy="110" r="9" fill="#5eab99"/>
+  <circle cx="66"  cy="70"  r="9" fill="#5eab99"/>
+
+  <!-- Bobine : moyeu central -->
+  <circle cx="100" cy="90" r="18" fill="#e96b55"/>
+  <circle cx="100" cy="90" r="10" fill="#1f2c34"/>
+  <circle cx="100" cy="90" r="5"  fill="#f0f193"/>
+
+  <!-- Rayon de lumière (projecteur) -->
+  <polygon points="100,90 65,48 135,48" fill="#f0f193" opacity="0.07"/>
+
+  <!-- Bande-film en bas du cercle -->
+  <rect x="14" y="152" width="172" height="24" rx="4" fill="#e96b55"/>
+  <rect x="19"  y="156" width="11" height="16" rx="2" fill="#1f2c34"/>
+  <rect x="36"  y="156" width="11" height="16" rx="2" fill="#1f2c34"/>
+  <rect x="53"  y="156" width="11" height="16" rx="2" fill="#1f2c34"/>
+  <rect x="70"  y="156" width="11" height="16" rx="2" fill="#1f2c34"/>
+  <rect x="87"  y="156" width="11" height="16" rx="2" fill="#1f2c34"/>
+  <rect x="104" y="156" width="11" height="16" rx="2" fill="#1f2c34"/>
+  <rect x="121" y="156" width="11" height="16" rx="2" fill="#1f2c34"/>
+  <rect x="138" y="156" width="11" height="16" rx="2" fill="#1f2c34"/>
+  <rect x="155" y="156" width="11" height="16" rx="2" fill="#1f2c34"/>
+  <rect x="172" y="156" width="11" height="16" rx="2" fill="#1f2c34"/>
+
+  <!-- Texte : nom du festival -->
+  <text x="100" y="143"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="10"
+        font-weight="700"
+        fill="white"
+        letter-spacing="1.5">LES FILMS DE PLEIN AIR</text>
+
+  <!-- Séparateur -->
+  <line x1="40" y1="148" x2="160" y2="148" stroke="#f0f193" stroke-width="0.5" opacity="0.5"/>
+
+</svg>

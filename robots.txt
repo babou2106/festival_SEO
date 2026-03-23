@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Disallow: /css/
+Disallow: /js/
+Disallow: /webfonts/
+
+Sitemap: https://lesfilmsdelepleinair.org/sitemap.xml
